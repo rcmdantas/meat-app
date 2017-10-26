@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 
 export class ReviewsComponent implements OnInit {
 
-  reviews: Observable<any>
+  reviews: Observable<any>;
   constructor(private restaurantService: RestaurantsService,
               private route: ActivatedRoute) { }
 

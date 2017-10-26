@@ -2,7 +2,7 @@ import { Http, Headers, RequestOptions } from '@angular/http';
 import { MEAT_API } from './../app.api';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { Order, OrderItem } from 'app/order/order.model';
+import { Order } from 'app/order/order.model';
 import { CartItem } from './../restaurant-detail/shopping-cart/cart-item.model';
 import { ShoppingCartService } from './../restaurant-detail/shopping-cart/shopping-cart.service';
 
